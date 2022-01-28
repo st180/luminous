@@ -1,0 +1,62 @@
+<div class="container-fluid">
+
+    <p>
+    <div class="row">
+
+        <div class="col-md-4">
+
+          <div class="card">
+    <div class="card-header">
+      <h2>Today's Goals</h2>
+    </div>
+    <div class="card-body" style="min-height: 150px;max-height: 200px;">
+      <ul>
+        <li *ngFor = "let line of goalData let i = index">
+            {{line.goal}}
+        </li>
+      </ul>
+        <input type='text'[(ngModel)]='goal' placeholder='Goal'>
+        <p><button type="button" class="btn btn-info" (click)='handleGoalClick()'>Add</button>
+    </div>
+  </div>
+
+
+
+        </div>
+
+        <div class="col-md-4">
+
+
+                  <div class="card">
+                  <div class="card-header">
+                    <h1 class="h2">Tip of the day</h1>
+                  </div>
+                  <div class="card-body" style="min-height: 150px;max-height: 150px;">
+                    <h1>Never give up</h1>
+                  </div>
+                  </div>
+
+
+        </div>
+
+
+
+        <div class="col-lg-4">
+
+
+                    <div class="card card__overlay">
+                    <div class="card-header">
+                      <h1 class="h2">Today's Weight</h1>
+                    </div>
+                    <div class="card-body" style="min-height: 150px;max-height: 200px;">
+                      <input type='text'[(ngModel)]='date' placeholder='Date'>
+                      <input type='text'[(ngModel)]='weight' placeholder="Today's Weight">
+                      <p><button type="button" class="btn btn-info" (click)='handleClick()'>Add</button>
+                    </div>
+                    </div>
+
+              </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,67 @@
+<div class="container-fluid">
+
+    <p>
+  <div class="row">
+
+
+
+          <div class="col-md-4">
+
+            <div class="card">
+      <div class="card-header">
+        <i class="bi bi-clock"></i>
+        <h4 style="display:inline;">M O R N I N G</h4>
+      </div>
+      <div class="card-body" style="min-height: 150px;max-height: 800px;">
+        <ul>
+          <li *ngFor = "let line of goalDataMorning let i = index">
+              {{line.goal}}
+          </li>
+        </ul>
+          <input type='text'[(ngModel)]='goalMorning' placeholder='Goal'>
+          <button type="button" class="btn btn-info" (click)='handleGoalClickMorning()'>Add</button>
+      </div>
+    </div>
+          </div>
+
+
+      <div class="col-md-4">
+
+        <div class="card">
+  <div class="card-header">
+    <i class="bi bi-clock"></i>
+    <h4 style="display:inline;">A F T E R N O O N</h4>
+  </div>
+  <div class="card-body" style="min-height: 150px;max-height: 800px;">
+    <ul>
+      <li *ngFor = "let line of goalDataAfternoon let i = index">
+          {{line.goal}}
+      </li>
+    </ul>
+      <input type='text'[(ngModel)]='goalAfternoon' placeholder='Goal'>
+      <button type="button" class="btn btn-info" (click)='handleGoalClickAfternoon()'>Add</button>
+  </div>
+</div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+  <div class="card-header">
+    <i class="bi bi-clock"></i>
+    <h4 style="display:inline;">E V E N I N G</h4>
+  </div>
+  <div class="card-body" style="min-height: 150px;max-height: 800px;">
+    <ul>
+      <li *ngFor = "let line of goalDataEvening let i = index">
+          {{line.goal}}
+      </li>
+    </ul>
+      <input type='text'[(ngModel)]='goalEvening' placeholder='Goal'>
+      <button type="button" class="btn btn-info" (click)='handleGoalClickEvening()'>Add</button>
+  </div>
+</div>
+
+      </div>
+  </div>
+
+</div>

@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+body, th, ul {
+  color: #FFF;
+}
+
+table {
+   overflow-y:scroll;
+   height: 200px;
+   display:block;
+}
+
+.bi-clock {
+  font-size: 23px;
+  padding-right: 35px;
+}
+
+.priorities {
+  background-image: url("./assets/archer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.plans {
+  background-image: url("./assets/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.today {
+  background-image: url("./assets/bulb2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/*** Color Changing Background Gradient
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*** Color Changing Background Gradient ***/
