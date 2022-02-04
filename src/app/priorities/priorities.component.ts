@@ -28,15 +28,15 @@ goalEvening : string = "";
 /***/
 
 goalDataMorning: Array<Goal> = [
-  {goal: 'What are my priorities today?'}
+  {goal: 'Have a productive week'}
 ];
 
 goalDataAfternoon: Array<Goal> = [
-  {goal: 'What are my priorities this week?'}
+  {goal: 'Focus on my health'}
 ];
 
 goalDataEvening: Array<Goal> = [
-  {goal: 'What are my priorities this month?'}
+  {goal: 'Build towards something great'}
 ];
 
 /***/

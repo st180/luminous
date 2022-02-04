@@ -4,8 +4,7 @@ card {
   margin: 10;
 }
 .card {
-  background-color: #333;
-  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 form{

@@ -15,28 +15,27 @@ export class TodayComponent implements OnInit {
     constructor() {
       }
 
+      goalMorning = '';
+      goalAfternoon = '';
+      goalEvening = '';
+
     ngOnInit(): void {
       document.body.className = "today";
     }
-
 //goals feature
-
-goalMorning : string = "";
-goalAfternoon : string = "";
-goalEvening : string = "";
 
 /***/
 
 goalDataMorning: Array<Goal> = [
-  {goal: 'Set goals for the morning'}
+  {goal: 'Write down my goals this morning'}
 ];
 
 goalDataAfternoon: Array<Goal> = [
-  {goal: 'Set goals for the afternoon'}
+  {goal: 'Stay on track throughout the day'}
 ];
 
 goalDataEvening: Array<Goal> = [
-  {goal: 'Set goals for the evening'}
+  {goal: 'Reflect in the evening'}
 ];
 
 /***/

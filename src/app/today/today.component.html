@@ -18,8 +18,12 @@
               {{line.goal}}
           </li>
         </ul>
-          <input type='text'[(ngModel)]='goalMorning' placeholder='Goal'>
-          <button type="button" class="btn btn-info" (click)='handleGoalClickMorning()'>Add</button>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Target" [(ngModel)]='goalMorning' aria-label="Target" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-warning" (click)='handleGoalClickMorning()' type="button">Commit</button>
+            </div>
+          </div>
       </div>
     </div>
           </div>
@@ -38,8 +42,12 @@
           {{line.goal}}
       </li>
     </ul>
-      <input type='text'[(ngModel)]='goalAfternoon' placeholder='Goal'>
-      <button type="button" class="btn btn-info" (click)='handleGoalClickAfternoon()'>Add</button>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Target" [(ngModel)]='goalAfternoon' aria-label="Target" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-warning" (click)='handleGoalClickAfternoon()' type="button">Commit</button>
+      </div>
+    </div>
   </div>
 </div>
       </div>
@@ -56,8 +64,12 @@
           {{line.goal}}
       </li>
     </ul>
-      <input type='text'[(ngModel)]='goalEvening' placeholder='Goal'>
-      <button type="button" class="btn btn-info" (click)='handleGoalClickEvening()'>Add</button>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Target" [(ngModel)]='goalEvening' aria-label="Target" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-warning" (click)='handleGoalClickEvening()' type="button">Commit</button>
+      </div>
+    </div>
   </div>
 </div>
 

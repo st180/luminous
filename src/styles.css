@@ -16,19 +16,19 @@ table {
 }
 
 .priorities {
-  background-image: url("./assets/archer.jpg");
+  background-image: url("./assets/friends.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .plans {
-  background-image: url("./assets/mountains.jpg");
+  background-image: url("./assets/conquer.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .today {
-  background-image: url("./assets/bulb2.jpg");
+  background-image: url("./assets/joy.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
