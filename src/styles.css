@@ -15,6 +15,18 @@ table {
   padding-right: 35px;
 }
 
+.dreams {
+  background-image: url("./assets/joy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.gratitude {
+  background-image: url("./assets/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
 .priorities {
   background-image: url("./assets/friends.jpg");
   background-repeat: no-repeat;

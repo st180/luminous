@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { TodayComponent } from './today/today.component';
 import { PrioritiesComponent } from './priorities/priorities.component';
 import { PlansComponent } from './plans/plans.component';
+import { GratitudeComponent } from './gratitude/gratitude.component';
+import { DreamsComponent } from './dreams/dreams.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PlansComponent } from './plans/plans.component';
     HomeComponent,
     TodayComponent,
     PrioritiesComponent,
-    PlansComponent
+    PlansComponent,
+    GratitudeComponent,
+    DreamsComponent
     ],
   imports: [
     BrowserModule,
