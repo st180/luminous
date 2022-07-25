@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: "plans", component: PlansComponent },
   { path: "dashboard", component: DashboardComponent },
   { path: "home", component: HomeComponent },
-  { path: "", redirectTo: "today", pathMatch: "full" }
+  { path: "", redirectTo: "dreams", pathMatch: "full" }
 ];
 
 @NgModule({
