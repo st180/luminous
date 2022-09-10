@@ -18,6 +18,11 @@ export class DreamsComponent implements OnInit {
         goalAfternoon = '';
         goalEvening = '';
 
+        loadMorning: string | null = localStorage.getItem('goalMorning');
+        loadAfternoon: string | null  = localStorage.getItem('goalAfternoon');
+        loadEvening: string | null  = localStorage.getItem('goalAfternoon');
+
+
       ngOnInit(): void {
         document.body.className = "dreams";
       }
@@ -60,17 +65,20 @@ export class DreamsComponent implements OnInit {
     this.goalDataMorning.push({
       goal: goalMorning
     })
+    localStorage.setItem('goalMorning', this.goalMorning);
   }
 
   addGoalAfternoon(goalAfternoon: string): void {
     this.goalDataAfternoon.push({
       goal: goalAfternoon
     })
+    localStorage.setItem('goalAfternoon', this.goalAfternoon);
   }
 
   addGoalEvening(goalEvening: string): void {
     this.goalDataEvening.push({
       goal: goalEvening
     })
+    localStorage.setItem('goalEvening', this.goalEvening);
   }
   }

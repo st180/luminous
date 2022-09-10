@@ -16,31 +16,31 @@ table {
 }
 
 .dreams {
-  background-image: url("./assets/joy.jpg");
+  background-image: url("./assets/man-in-nature.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .gratitude {
-  background-image: url("./assets/mountains.jpg");
+  background-image: url("./assets/forrest.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .priorities {
-  background-image: url("./assets/friends.jpg");
+  background-image: url("./assets/rocks.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .plans {
-  background-image: url("./assets/conquer.jpg");
+  background-image: url("./assets/bali.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .today {
-  background-image: url("./assets/bulb3.jpg");
+  background-image: url("./assets/conquer.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
